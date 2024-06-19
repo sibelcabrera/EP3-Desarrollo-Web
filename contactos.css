@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    height: 2500px;
+    
+}
+main{
+    background-color: azure;
+
+    margin: auto;
+
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    margin: auto;
+    display: flex;
+}
+.cabecera{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#etiqueta{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#etiqueta a{
+    text-decoration: none;
+    color: black;
+}
+#etiqueta ul  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+#cuadros{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+
+}
+.tabla1{
+    text-align: center;
+
+}
+table{
+    border-collapse: collapse;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+td{
+    text-align: center;
+}
+.formulario{
+    font-size: 17px;
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    margin:  auto;
+    background-color: skyblue;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.formulario input{
+    padding: 16px;
+    width: 50%;
+}
+h3{
+    text-align: center;
+}
+.boton{
+    text-align: center;
+    left: 25px;
+    top: 40px;
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.redes li a{
+    padding: 10px;
+    font-size: 25px;
+}
